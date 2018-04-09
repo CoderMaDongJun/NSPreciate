@@ -18,5 +18,11 @@
 
 @property (nonatomic ,assign) NSInteger age ;
 
+@property (nonatomic ,assign) NSInteger height ;
+
 + (NSArray<Person *> *)randomInstance;
+
+#pragma mark - 排序
+- (instancetype)initWithName:(NSString *)name age:(NSInteger)age;
+
 @end

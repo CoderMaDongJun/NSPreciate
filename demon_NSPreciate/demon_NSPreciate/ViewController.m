@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSPreciateController.h"
+#import "NSSortDescriptorController.h"
 
 @interface ViewController ()
 
@@ -23,7 +24,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    NSPreciateController *vc = [[NSPreciateController alloc] init];
+//    NSPreciateController *vc = [[NSPreciateController alloc] init];
+    
+    NSSortDescriptorController *vc = [[NSSortDescriptorController alloc] init];
     [self presentViewController:vc animated:YES completion:nil];
 }
 

@@ -33,4 +33,11 @@
 {
     return [NSString stringWithFormat:@"name:%@, address:%@,   professional:%@ ,  age:%zd  ",self.name,self.address,self.professional,self.age];
 }
+
+- (instancetype)initWithName:(NSString *)name age:(NSInteger)age
+{
+    self.name = name;
+    self.age = age;
+    return self;
+}
 @end
